@@ -1,7 +1,25 @@
+/* //jumbotron */
 .jumbotron {
-    background-color:
+  padding: 1rem;
+    border-radius: 0;
+  background-color:
   linear-gradient(
     rgba(0, 0, 250, 0.25), 
     rgba(125, 250, 250, 0.45)
   ),
+}
+
+/* //zip code */
+.zipCode{
+  background-color:rgb(250, 246, 246);
+  font-size: 18px;
+}
+
+/* //5 Day forecast */
+div#fiveDay div
+{
+  width: 125px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
 }
