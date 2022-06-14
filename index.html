@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Link to css  -->
+    <link rel="stylesheet" type="text/css" href="./assets/">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+    
+    <title>Weather Dashboard</title>
+    </head>
+    <body>
+        <!-- Jumbotron -->
+        <div class="container">
+        <div class="jumbotron">
+            <h1>Weather Dashboard</h1>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-3 m-2">
+                <h3>Search for a City:</h3>
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="city-input" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button id="city" class="btn btn-outline-secondary bg-primary" type="button"><ion-icon name="search-outline"></ion-icon></button>
+                    </div>
+                </div>
+     <!-- History -->
+        <div class="card" style="width: 15rem;">
+            <ul id="city-list" class="list-group list-group-flush">
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-8 m-2">
+        <div class="row-12">
+            <div class="card">
+                <div id="current-weather" class="card-body">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row-12">
+            <h3> 5-Day Forecast: </h3>
+            </div>
+            <br>
+            <div id="boxes" class="row">      
+                 </div>
+                </div>
+               </div>
+               
+     <!-- Javascript -->
